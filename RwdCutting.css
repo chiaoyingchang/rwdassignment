@@ -6,13 +6,13 @@ height: auto;
 
 .wrap{background-color: #fcfcfc;
 max-width: 1200px;
-min-width: 320px;
+/* min-width: 320px; */
 margin: 0 auto;
 }
 
 .banner {display: flex;
 justify-content: space-between;
-margin: 1rem 0;
+/* margin: 1rem 0; */
 padding: 1rem;
 }
 
@@ -85,9 +85,11 @@ padding: 15px;
     align-items: center;
     margin: 0.5em 1rem;}
   .content{width: 100%;}
-  .aside{width: 100%;}
+    .aside{width: 50%;}
   .aside ul{display: flex;
-    justify-content: space-around;}
+    flex-direction: column;
+    align-items: center;}
+    .aside img{width: 100%;}
 }
 
 @media (max-width:420px)
